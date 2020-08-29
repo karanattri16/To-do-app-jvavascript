@@ -1,0 +1,50 @@
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  display: inline-block;
+  border: 0.25px solid;
+  margin: 10px;
+  width: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 216, 236);
+  height: 300px;
+  overflow-y: scroll;
+}
+.btnAdd {
+  border: 1px solid yellow;
+}
+.btnAdd:hover {
+  background-color: yellow;
+  color: navy;
+}
+.btnDone {
+  border: 1px solid red;
+  color: red;
+}
+.btnDone:hover {
+  background-color: red;
+  color: white;
+}
+button {
+  font-size: 16px;
+}
+.list__wrapper {
+  list-style: circle;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+  background-color: grey;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
